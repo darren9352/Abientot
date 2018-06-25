@@ -8,18 +8,3 @@ class CartForm(forms.ModelForm):
     class Meta:
         model = Cart
         fields = ('quantity',)
-
-# class ProductForm(forms.ModelForm):
-#     class Meta:
-#         model = Product
-#         fields = [
-#             "title",
-#             "image",
-#             "category",
-#             "price",
-#             "brand",
-#             "productcode",
-#             "rewardpoint",
-#             "availability",
-#             "description",
-#         ]
